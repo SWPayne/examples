@@ -1,0 +1,11 @@
+ID,Name,Date,Revenue,Category,Notes
+1,Alice,2024-01-05,"1,000",A,ok
+2, bob ,01/06/24,2000,a, missing value 
+3,CHARLIE,Jan 7 2024,?,B ,N/A
+4,Dana,2024/13/08,2500.50,B,Check again
+5,Eve,,3O00,,?
+6,frank,2024-02-30,4000USD,c,duplicate
+7,  GEORGE,2024.03.01,-500,C,none
+8,H@nnah,3/4/2024,NaN,A,bad data
+9,Ivy,20240305,"5,500.75",b,
+10,Jack,05-03-24,,D,ok
