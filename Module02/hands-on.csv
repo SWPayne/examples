@@ -1,0 +1,11 @@
+id,name,age,grade
+1,Alice,20,A
+2,Bob,,B
+3,Charlie,22,
+4,Diana,21,A
+5,,23,B
+6,Edward,20,C
+7,Frank,not_available,B
+8,Grace,22,A
+9,Hank,,C
+10,Ivy,21,
