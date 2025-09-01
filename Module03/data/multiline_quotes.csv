@@ -1,0 +1,5 @@
+This is a file for testing.
+order_id,city,notes
+1,'New York, USA','Line1
+Line2 with comma, inside quotes'
+2,'Paris, FR','Contains "quoted" text'
