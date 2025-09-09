@@ -1,0 +1,4 @@
+user.id,user.name,user.email,plan.tier,plan.renewal_date,post.id,post.likes,post.tags
+1,Alice,alice@example.com,,,101,5,"['intro', 'welcome']"
+1,Alice,alice@example.com,,,102,7,"['data', 'json']"
+2,Bob,,pro,2025-12-31,201,1,[]

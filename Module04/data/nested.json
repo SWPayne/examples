@@ -1,0 +1,49 @@
+{
+  "run_id": "2025-09-08T09:45:00Z",
+  "source": "api.example/v1/users",
+  "users": [
+    {
+      "user_id": 1,
+      "profile": {
+        "name": "Alice",
+        "email": "alice@example.com"
+      },
+      "posts": [
+        {
+          "post_id": 101,
+          "likes": 5,
+          "tags": [
+            "intro",
+            "welcome"
+          ]
+        },
+        {
+          "post_id": 102,
+          "likes": 7,
+          "tags": [
+            "data",
+            "json"
+          ]
+        }
+      ]
+    },
+    {
+      "user_id": 2,
+      "profile": {
+        "name": "Bob",
+        "email": null
+      },
+      "posts": [
+        {
+          "post_id": 201,
+          "likes": 1,
+          "tags": []
+        }
+      ],
+      "plan": {
+        "tier": "pro",
+        "renewal_date": "2025-12-31"
+      }
+    }
+  ]
+}

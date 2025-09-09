@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "age": 30,
+    "city": "Knoxville"
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "age": 27,
+    "city": "Nashville"
+  },
+  {
+    "id": 3,
+    "name": "Carmen",
+    "age": 34,
+    "city": "Memphis"
+  }
+]

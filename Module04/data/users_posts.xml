@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <user id="1">
+    <name>Alice</name>
+    <contact>
+      <email>alice@example.com</email>
+    </contact>
+    <posts>
+      <post id="101" likes="5">
+        <tags>
+          <tag>intro</tag>
+          <tag>welcome</tag>
+        </tags>
+      </post>
+      <post id="102" likes="7">
+        <tags>
+          <tag>data</tag>
+          <tag>json</tag>
+        </tags>
+      </post>
+    </posts>
+  </user>
+  <user id="2">
+    <name>Bob</name>
+    <contact>
+      <email/>
+    </contact>
+    <posts>
+      <post id="201" likes="1">
+        <tags/>
+      </post>
+    </posts>
+    <plan tier="pro" renewal_date="2025-12-31"/>
+  </user>
+</users>

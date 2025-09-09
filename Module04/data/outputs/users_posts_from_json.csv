@@ -1,0 +1,4 @@
+user_id,profile.name,profile.email,plan.tier,plan.renewal_date,post.post_id,post.likes,post.tags,run_id,source
+1,Alice,alice@example.com,,,101,5,"['intro', 'welcome']",2025-09-08T09:45:00Z,api.example/v1/users
+1,Alice,alice@example.com,,,102,7,"['data', 'json']",2025-09-08T09:45:00Z,api.example/v1/users
+2,Bob,,pro,2025-12-31,201,1,[],2025-09-08T09:45:00Z,api.example/v1/users

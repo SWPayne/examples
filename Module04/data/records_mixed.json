@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "dept": "Data",
+    "start_date": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "full_name": "Bob B.",
+    "department": "Analytics"
+  },
+  {
+    "identifier": 3,
+    "name": "Carmen",
+    "dept": "Data",
+    "status": "contract"
+  }
+]
