@@ -2,9 +2,23 @@
   "name": "DATA304",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
   "containerEnv": { "GIT_LFS_SKIP_SMUDGE": "1" },
-  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt pytest && rm -f .git/hooks/pre-push && git config --local --remove-section filter.lfs || true",
+  "postCreateCommand": "python -m pip install --upgrade pip && pip install -r requirements.txt && rm -f .git/hooks/pre-push && git config --local --remove-section filter.lfs || true",
   "customizations": {
-    "vscode": { "extensions": ["ms-python.python","ms-toolsai.jupyter"] }
+    "vscode": { 
+      "settings": {
+        "extensions.autoCheckUpdates": false,
+        "extensions.autoUpdate": false,
+        "update.mode": "none",
+        "settingsSync.enabled": false,
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "jupyter.jupyterServerType": "local"
+      },
+      "extensions": [
+        "ms-python.python@2025.12.0",
+        "ms-toolsai.jupyter@2025.7.0",
+        "ms-toolsai.jupyter-renderers"
+      ]
+    }
   },
   "remoteUser": "vscode"
 }
